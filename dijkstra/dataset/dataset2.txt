@@ -1,0 +1,61 @@
+# ==============================================================================
+# DATASET 2: MAIN CAMPUS DATASET (16 ĐỈNH, 35 CẠNH)
+# Dự án: Hệ thống Drone định tuyến khuôn viên ĐH FPT Hòa Lạc
+# Dữ liệu thực tế đo đạc tại Campus FPT Hòa Lạc (2 Căng tin, 7 Tòa nhà, 7 Ký túc xá)
+# Định dạng:
+# Dòng đầu: <Số đỉnh V> <Số cạnh E> <Đỉnh nguồn Source>
+# Các dòng tiếp theo: <Đỉnh u> <Đỉnh v> <Trọng số w(m)>
+# Mapping 16 đỉnh:
+# 0: CT1 (Căng tin CT1)
+# 1: CT2 (Căng tin CT2 - Trạm sạc nguồn)
+# 2: Alpha (Tòa Alpha)
+# 3: Beta (Tòa Beta)
+# 4: Gamma (Tòa Gamma)
+# 5: Delta (Tòa Delta)
+# 6: Epsilon (Tòa Epsilon)
+# 7: Omega (Tòa Omega)
+# 8: Zeta (Tòa Zeta)
+# 9: Dom A (Ký túc xá Dom A)
+# 10: Dom B (Ký túc xá Dom B)
+# 11: Dom C (Ký túc xá Dom C)
+# 12: Dom D (Ký túc xá Dom D)
+# 13: Dom E (Ký túc xá Dom E)
+# 14: Dom F (Ký túc xá Dom F)
+# 15: Dom G (Ký túc xá Dom G)
+# ==============================================================================
+16 35 1
+1 7 154.35
+1 4 98.23
+1 15 103.92
+1 8 194.97
+0 6 192.39
+0 5 126.91
+0 3 108.30
+0 2 236.25
+0 9 46.15
+0 12 99.17
+0 11 57.58
+0 13 120.41
+0 4 148.22
+7 8 79.10
+7 4 203.12
+8 6 139.68
+8 4 209.67
+6 4 218.89
+6 5 88.95
+5 3 43.41
+3 2 235.50
+2 9 190.60
+2 10 178.65
+2 12 205.99
+9 10 42.26
+10 12 58.52
+12 11 41.35
+12 14 175.26
+12 13 178.18
+11 4 190.12
+11 13 152.72
+11 14 154.82
+13 15 52.81
+15 14 48.11
+15 4 50.25
